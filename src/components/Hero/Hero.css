@@ -1,0 +1,146 @@
+.hero-main{
+    padding: 0px 128px;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .hero-main{
+        padding: 28px 24px;
+        width: 100%;
+    }
+
+    .hero-heading{
+        font-size: 36px;
+    }
+
+    .hero-stats{
+        display: none !important;
+    }
+
+    .hero-container{
+        padding: 0px 0px;
+    
+    }
+    
+}
+
+.hero-container{
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.hero-iit{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding: 18px 24px;
+    border-radius: 16px;
+    gap: 10px;
+    border: 1px solid #FFA50B;
+    width: fit-content;
+}
+
+.hero-heading{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 85.987px;
+    color: #595961;
+}
+
+.hero-heading-highlight{
+    color: #992E9D;
+}
+
+.hero-sub-heading-highlight{
+    color: #434347;
+    font-size: 20px;
+}
+
+.hero-sub-heading{
+    color: #434347;
+    font-weight: 500;
+}
+
+button{
+    font-family: "Poppins", sans-serif;
+    border-radius: 14px;
+    background: linear-gradient(180deg, #B73BBE 0%, #992E9D 93.51%);
+    box-shadow: 0px 8px 24px -10px rgba(153, 46, 157, 0.50);
+    display: flex;
+    padding: 24px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border: none; 
+    color: white;
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+.hero-know-more{
+    color: #992E9D;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.hero-enroll-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.hero-features{
+    display: flex;
+    flex-direction: row;
+    gap: 14px; 
+}
+
+.hero-features-box{
+    background-color: rgb(254, 251, 234);
+    padding: 12px;
+    border: 1px solid rgb(253, 245, 196);
+    border-radius: 100px;
+    color: #BB5302;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.hero-feature-icon{
+    display: flex;
+    align-items: center ;
+}
+
+.hero-stats{
+    background-color: rgb(250, 246, 251);
+    padding: 36px 128px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-stats-box{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.hero-stats-data{
+    line-height: 30px;
+}
+
+.hero-stats-value{
+    font-size: 40px;
+    font-weight: 500;
+    color: #992E9D;
+}
+
+.hero-stats-title{
+    color: #686972;
+}

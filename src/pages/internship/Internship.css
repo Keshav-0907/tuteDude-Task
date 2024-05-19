@@ -1,0 +1,68 @@
+.internship-main {
+    padding: 64px 128px;
+    display: flex;
+    flex-direction: column ;
+    gap: 50px;
+}
+
+.internship-heading {
+    background: linear-gradient(180deg, #B872D0 0%, #372FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.point img{
+    width: 50px;
+}
+
+.points-1{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.point{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.points-2{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.point-2{
+    display: flex;
+    gap: 20px;
+    width: 40%;
+    padding: 0px 100px;
+    align-items: center;
+}
+
+.point-2 img{
+    width: 50px;
+    height: 50px;
+}
+
+.apply-now{
+    display: flex;
+    justify-content: center;
+
+}
+
+.apply-now-btn{
+    display: flex;
+    width: fit-content;
+    color: white;
+    padding: 15px 28px; 
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(176deg, #800080 -2.53%, #7E267E 27.29%);
+}
