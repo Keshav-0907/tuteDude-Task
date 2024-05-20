@@ -11,19 +11,33 @@
     }   
 
     .refund-main{
-        padding: 31px 24px;
+        padding: 31px 24px 84px 24px;
     }
 
     .refund-heading{
-        font-size: 24px;
+        font-size: 24px !important;
+        text-align: left !important;
     }
+
+    .step{
+        padding: 16px;
+    }
+
+    .step-title{
+        letter-spacing: -0.48px; 
+    }
+}
+
+.refund-heading-highlight{
+    background: linear-gradient(180deg, #B73BBE 0%, #992E9D 93.51%);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .refund-heading {
     color: #686972;
     font-size: 48px;
     font-weight: 700;
-    display: flex;
     text-align: center;
     padding: 0px 20px;
 }
@@ -116,7 +130,6 @@
     flex-direction: column;
     gap: 16px;
     background-color: rgb(253, 248, 254);
-    width: 100%;
     border: 1px solid rgb(247, 235, 251);
     border-radius: 20px;
 }
@@ -130,6 +143,11 @@
 
 .step-bottom {
     font-size: 14px;
+}
+
+.step-middle-text{
+    display: flex;
+    align-items: center;
 }
 
 .step-img {
@@ -163,3 +181,54 @@
     top: 10px;
     right: 300px;
 }
+
+.how-it-works-body{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+@media screen and (max-width: 768px){
+    .how-it-works-body{
+        flex-direction: row;
+    }
+    .step-main{
+        flex-direction: column;
+    }
+
+    .lg-step{
+        display: none;
+    }
+
+    .step-text{
+        position: absolute;
+        transform: translateY(15%); 
+    }
+}
+@media screen and (min-width: 768px){
+    .sm-step{
+        display: none;
+
+    }
+    
+}
+
+
+.step-main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.single-step{
+    position: relative;
+}
+
+.step-text{
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+

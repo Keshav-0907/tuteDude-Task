@@ -1,24 +1,31 @@
 .hero-main{
-    padding: 40px 128px;
-    width: 55%;
+    padding: 0px 128px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 .hero-container{
-    padding: 10px 0px;Data Science
+    padding: 10px 0px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-main{
+        width: 55%;
+    }
 }
 
 @media screen and (max-width: 768px){
     .hero-main{
         padding: 28px 24px;
-        width: 100%;
+        gap: 28px;
     }
 
     .hero-heading{
         font-size: 36px !important;
         line-height: 46.8px !important;
+        line-height: 130%;
+        letter-spacing: -1.08px; 
     }
 
     .hero-stats{
@@ -31,6 +38,23 @@
 
     .hero-iit{
         padding: 18px 16px;
+    }
+
+    .hero-features-box{
+        padding: 10px 14px !important;
+        font-size: 12px !important;
+    }
+
+    .hero-features{
+        gap: 10px !important;
+    }
+
+    .hero-enroll-container{
+        flex-direction: column;
+    }
+
+    button{
+        width: 100%;
     }
     
 }

@@ -3,6 +3,8 @@ import "./Refund.css";
 import ClockIcon from "../../Icons/ClockIcon";
 import Step1 from "../../assets/step1.png";
 import ArrowIcon from "../../Icons/ArrowIcon";
+import StepIcon from "../../Icons/StepIcon";
+import DownStepIcon from "../../Icons/DownStepIcon";
 
 const initialTime = 786400;
 
@@ -43,18 +45,24 @@ const Refund = () => {
   return (
     <div className="refund-main">
       <div className="refund-heading">
-        Don't miss out on this limited-time opportunity to learn for Free!
+        Don't miss out on this{" "}
+        <span className="refund-heading-highlight">
+          {" "}
+          limited-time opportunity{" "}
+        </span>{" "}
+        to learn for <span className="refund-heading-highlight"> Free! </span>
       </div>
 
+      {/* TODO */}
       <div className="refund-offer-cont">
         <div className="refund-offer-main">
           <div className="refund-offer-top">100% Refund Offer 😎</div>
 
           <div>
             <span> 20 Seats Left</span>
-            <div className="arrow-icon"> 
-            {/* TODO */}
-              <ArrowIcon /> 
+            <div className="arrow-icon">
+              {/* TODO */}
+              <ArrowIcon />
             </div>
             <div className="range">
               <input
@@ -79,7 +87,38 @@ const Refund = () => {
         <div className="how-it-works-head">How Does it Work?</div>
 
         <div className="how-it-works-body">
-          <div>Upar wali cheez</div>
+          <div className="step-main">
+            <div className="single-step">
+              <div className="lg-step">
+                <StepIcon />
+                <span className="step-text"> Step 1</span>
+              </div>
+              <div className="sm-step">
+                <DownStepIcon />
+                <span className="step-text"> 1</span>
+              </div>
+            </div>
+            <div className="single-step">
+              <div className="lg-step">
+                <StepIcon />
+                <span className="step-text"> Step 2</span>
+              </div>
+              <div className="sm-step">
+                <DownStepIcon />
+                <span className="step-text"> 2</span>
+              </div>
+            </div>
+            <div className="single-step">
+              <div className="lg-step">
+                <StepIcon />
+                <span className="step-text"> Step 3</span>
+              </div>
+              <div className="sm-step">
+                <DownStepIcon />
+                <span className="step-text"> 3</span>
+              </div>
+            </div>
+          </div>
           <div className="steps">
             <div className="step">
               <div className="step-title">

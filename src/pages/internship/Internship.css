@@ -14,17 +14,31 @@
     text-align: center;
 }
 
-.icon {
-    max-width: 100%;
-    height: auto;
+.work-points{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    z-index: 10;
+    position: relative;
 }
 
-.points-1 {
-    display: flex;
-    gap: 100px;
-    align-items: center;
-    justify-content: space-around;
+/* 
+.line{
+    top: 10px;
+    left: 30px;
+    width: 2px;
+    z-index: - !important;
+    height: 480px;
+    background: #000000;
+    position: absolute;
+
+} */
+
+.icon {
+    width: 64px;
+    height: 64px;
 }
+
 
 @media screen and (max-width: 768px) {
     .internship-main {
@@ -35,59 +49,11 @@
         font-size: 28px;
     }
 
-    .points-1 {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .points-2 {
-        flex-direction: column;
-        gap: 20px;
-    }
-
     .internship-main {
         gap: 20px;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .points-2 {
-        display: flex;
-        gap: 20px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .point-2 {
-        display: flex;
-        gap: 20px;
-        align-items: center;
-    }
-    
-}
-
-.point {
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.points-2 {
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.point-2 {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
 
 
 
@@ -106,3 +72,42 @@
     cursor: pointer;
     background: linear-gradient(176deg, #800080 -2.53%, #7E267E 27.29%);
 }
+
+.upper{
+    display: flex;
+    gap: 50px;
+}
+
+.upper-point{
+    display: flex;
+    gap: 20px;
+}
+
+.lower{
+    display: flex;
+    padding: 0px 240px;
+    gap: 70px;
+}
+
+.lower-point{
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .upper{
+        flex-direction: column;
+    }
+
+    .lower{
+        flex-direction: column;
+        padding: 0px;
+        gap: 50px;
+    }
+
+    .work-points{
+        gap: 50px;
+    }
+    
+}
+
