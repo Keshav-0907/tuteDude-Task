@@ -8,8 +8,15 @@
 @media screen and (max-width: 768px){
     .steps {
         flex-direction: column;
+    }   
+
+    .refund-main{
+        padding: 31px 24px;
     }
-    
+
+    .refund-heading{
+        font-size: 24px;
+    }
 }
 
 .refund-heading {

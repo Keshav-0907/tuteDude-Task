@@ -8,19 +8,27 @@ const Opportunities = () => {
   return (
     <div className="opportunities-main">
       <div className="opportunities-head">
-        Unlock 6 Certificates & Internship Opportunities!
+        Unlock{" "}
+        <span className="opportunities-head-highlight"> 6 Certificates </span> &{" "}
+        <span className="opportunities-head-highlight">
+          {" "}
+          Internship Opportunities!{" "}
+        </span>
       </div>
       <div className="opportunities-container">
         <div className="certificate-box">
           <div className="certificate-head">
             Get 6 Industry Recognized Certificates!
           </div>
-          <div>
-            <img src={Certificate} alt="certificate" className="certificate-img" />
+          <div className="image">
+            <img
+              src={Certificate}
+              alt="certificate"
+              className="certificate-img"
+            />
           </div>
           <div className="certificate-features">
             <div className="feature">
-                
               <div className="hero-feature-icon">
                 {" "}
                 <StarIcon2 />{" "}
@@ -37,6 +45,7 @@ const Opportunities = () => {
             </div>
           </div>
         </div>
+
         <div className="internship-box">
           <div className="internship-head">
             <div className="internship-head-1">
@@ -47,7 +56,7 @@ const Opportunities = () => {
               help you crack your first internship.
             </div>
           </div>
-          <div>
+          <div className="image">
             <img src={Internship} alt="internship" />
           </div>
         </div>

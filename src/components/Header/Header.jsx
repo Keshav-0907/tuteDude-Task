@@ -22,11 +22,14 @@ const SecondreyHeader = [
 ]
 
 const Header = () => {
-  const [activeLink, setActiveLink] = useState("Overview"); 
+  const [activeLink, setActiveLink] = useState("/Overview"); 
+
+  console.log("activeLink", activeLink);
 
   const handleLinkClick = (link) => {
     setActiveLink(link);
   };
+
   return (
     <div className="header-main">
       <div className="primary-header">

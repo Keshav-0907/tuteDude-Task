@@ -1,7 +1,7 @@
 .internship-main {
     padding: 64px 128px;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     gap: 50px;
 }
 
@@ -14,54 +14,94 @@
     text-align: center;
 }
 
-.point img{
-    width: 50px;
+.icon {
+    max-width: 100%;
+    height: auto;
 }
 
-.points-1{
+.points-1 {
     display: flex;
     gap: 100px;
     align-items: center;
     justify-content: space-around;
 }
 
-.point{
+@media screen and (max-width: 768px) {
+    .internship-main {
+        padding: 28px 24px;
+    }
+
+    .internship-heading {
+        font-size: 28px;
+    }
+
+    .points-1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .points-2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .internship-main {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .points-2 {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .point-2 {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    
+}
+
+.point {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.points-2 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.point-2 {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.points-2{
-    display: flex;
-    gap: 100px;
-    align-items: center;
-    justify-content: space-around;
-}
 
-.point-2{
-    display: flex;
-    gap: 20px;
-    width: 40%;
-    padding: 0px 100px;
-    align-items: center;
-}
 
-.point-2 img{
-    width: 50px;
-    height: 50px;
-}
-
-.apply-now{
+.apply-now {
     display: flex;
     justify-content: center;
 
 }
 
-.apply-now-btn{
+.apply-now-btn {
     display: flex;
     width: fit-content;
     color: white;
-    padding: 15px 28px; 
+    padding: 15px 28px;
     border-radius: 10px;
     cursor: pointer;
     background: linear-gradient(176deg, #800080 -2.53%, #7E267E 27.29%);

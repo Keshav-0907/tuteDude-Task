@@ -1,78 +1,88 @@
-.opportunities-main{
+.opportunities-main {
     padding: 96px 128px;
     display: flex;
     flex-direction: column;
     gap: 64px;
 }
 
-@media screen and (max-width: 768px){
-    .opportunities-container{
+@media screen and (max-width: 768px) {
+    .opportunities-container {
         flex-direction: column;
-        gap: 40px;
+        gap: 48px;
     }
 
-    .certificate-img{
-        width: 50px;
+    .opportunities-main {
+        padding: 48px 24px;
     }
 }
 
-.opportunities-head{
+.opportunities-head-highlight{
+    color: #992E9D;
+}
+
+.opportunities-head {
     color: #686972;
-    font-size: 48px; 
-    font-weight: 600; 
+    font-size: 48px;
+    font-weight: 600;
 }
 
-.opportunities-container{
+.image{
     display: flex;
-    justify-content: space-around;   
+    justify-content: center;
+}
+
+.opportunities-container {
+    display: flex;
+    justify-content: center;
     gap: 40px;
 }
 
-.certificate-box{
+.certificate-box {
     width: 100%;
     display: flex;
     flex-direction: column;
+    text-align: center;
     background-color: rgb(251, 245, 251);
-    border: 1px solid rgb(247, 235,251 );
+    border: 1px solid rgb(247, 235, 251);
     border-radius: 24px;
-    padding: 36px;
+    padding: 20px;
     gap: 20px;
 }
 
-.internship-box{
+.internship-box {
     width: 100%;
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 252, 236);
-    border: 1px solid rgb(253, 245,202 );
+    border: 1px solid rgb(253, 245, 202);
     border-radius: 24px;
-    padding: 36px;
+    padding: 20px;
     gap: 25px;
 
 }
 
-.certificate-head{
+.certificate-head {
     font-size: 28px;
-    font-weight: 600; 
+    font-weight: 600;
     text-align: center;
 }
 
-.internship-head-1{
+.internship-head-1 {
     font-size: 28px;
-    font-weight: 600; 
+    font-weight: 600;
 }
 
-.certificate-features{
+.certificate-features {
     display: flex;
     justify-content: space-around;
 }
 
-.feature{
+.feature {
     background-color: rgb(247, 235, 251);
     display: flex;
-    align-items: center ;
+    align-items: center;
     padding: 12px;
-    border: 1px solid rgb(239, 215,246 );
+    border: 1px solid rgb(239, 215, 246);
     gap: 6px;
     border-radius: 999px;
 }
