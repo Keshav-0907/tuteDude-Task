@@ -67,19 +67,27 @@
 
 .opportunities-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 40px;
 }
 
 .certificate-box {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    /* text-align: center; */
     background-color: rgb(251, 245, 251);
     border: 1px solid rgb(247, 235, 251);
     border-radius: 24px;
     padding: 20px;
     gap: 20px;
+    
+}
+
+@media screen and (min-width: 769px){
+    .internship-box,
+    .certificate-box {
+        width: 100%;
+    }
 }
 
 .internship-box {
@@ -90,7 +98,6 @@
     border-radius: 24px;
     padding: 20px;
     gap: 25px;
-
 }
 
 .certificate-head {
