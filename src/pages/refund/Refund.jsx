@@ -62,7 +62,7 @@ const Refund = () => {
             <span> 20 Seats Left</span>
             <div className="arrow-icon">
               {/* TODO */}
-              <ArrowIcon />
+              {/* <ArrowIcon /> */}
             </div>
             <div className="range">
               <input
